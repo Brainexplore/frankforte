@@ -1,0 +1,42 @@
+body{
+background-color: skyblue; 
+font-family:"Fredoka", sans-serif;
+}
+p{
+  font-size: 19px;
+  color: rgb(62, 56, 56);
+}
+h1{
+ font-size: 40px;
+ font-style:italic;
+ text-decoration: underline;
+ color: rgb(14, 14, 154);
+ cursor: pointer;
+}
+.ch-color:hover {
+  color: firebrick;
+}
+.first-block{
+border: 8px groove;
+width: 600px;
+height: 600px;
+padding: 20px;
+border-color: black;
+background-color:burlywood;
+text-align: center;
+
+}
+
+.font-fam{
+font-family: "Kanit", sans-serif;
+font-style: normal;
+text-decoration: double;
+}
+
+#shape-image{
+  border-radius: 1000px;
+  transition: 0.5s;
+}
+#shape-image:hover {
+  transform: scale(1.1);
+}
